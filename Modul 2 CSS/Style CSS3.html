@@ -1,0 +1,54 @@
+<style media="screen">
+  .container{
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    margin-left: :0 auto;
+  }
+  .static{position: static;border: 2px solid green;}
+  .relative{
+    position: relative;
+    border: 2px solid red;
+    left: 20px;
+    bottom: 0;
+  }
+  .absolute{position: absolute; border: 2px solid blue; left:20px;bottom: 40px;}
+  .fixed{position: fixed; border: 2px solid black; bottom: 0;right: 0;}
+  .sticky{
+    position: sticky;
+    border: 2px solid yellow;
+    top:0;
+    left: 20px;
+    background: darkblue;
+    color: white;
+  }
+</style>
+
+<div class="container">
+  <p class="sticky">
+    Ini adalah contoh dari posisi sticky
+  </p>
+  <p class="static">
+    <b>Ini adalah contoh dari position static</b> <br>
+    (1) Kelelawar, seperti halnya binatang lain,
+    memiliki manfaat bagi kehidupan manusia.
+    (2) Kelelawar yang menurut kepercayaan (orang Barat) bangkit dari kubur,
+    kemudian mengisap darah manusia yang sedang tidur pada malam hari.
+    (3) Selain itu, kelelawar pemakan serangga menjauhkan manusia dari gigitan nyamuk.
+    (4) Bahkan, hasil penelitian menunjukkan bahwa kelelawar vampir dapat digunakan untuk mengobati pasien sakit jantung dan stroke.
+    (5) Antikoagulan, substansi yang ditemukan dalam air liur kelelawar vampir, disaring oleh beberapa ilmuwan di berbagai negara dan
+    digunakan sebagai obat penyakit tersebut.
+  </p>
+  <p class="relative">
+    <b>Ini adalah contoh dari position relative</b> <br>
+    Buah pome (pomegranate) biasa dikenal sebagai buah delima merah di Indonesia yang banyak khasiatnya. Buah yang berasal dari daerah Timur Tengah kini dapat ditemukan di beberapa negara. Tak banyak yang tahu bahwa buah ini memiliki kandungan vitamin C yang lebih tinggi 25 kali daripada buah jeruk juga mengandung antioksidan 3 kali lebih tinggi daripada teh hijau. Rahasia lainnya, buah ini telah lama dikenal sebagai pencegah penyakit kanker, jantung, dan darah tinggi.
+  </p>
+  <p class="absolute">
+    <b>Ini adalah contoh dari position absolute</b> <br>
+    Buah pome (pomegranate) biasa dikenal sebagai buah delima merah di Indonesia yang banyak khasiatnya. Buah yang berasal dari daerah Timur Tengah kini dapat ditemukan di beberapa negara. Tak banyak yang tahu bahwa buah ini memiliki kandungan vitamin C yang lebih tinggi 25 kali daripada buah jeruk juga mengandung antioksidan 3 kali lebih tinggi daripada teh hijau. Rahasia lainnya, buah ini telah lama dikenal sebagai pencegah penyakit kanker, jantung, dan darah tinggi.
+  </p>
+
+  <p class="fixed">
+    Ini merupakan contoh dari position fixed
+  </p>
+</div>
